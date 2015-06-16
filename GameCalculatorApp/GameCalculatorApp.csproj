@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GameCalculator.aspx" />
     <Content Include="MasterPages\FrontEnd.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameCalculator.aspx.cs">
+      <DependentUpon>GameCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameCalculator.aspx.designer.cs">
+      <DependentUpon>GameCalculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\FrontEnd.Master.cs">
       <DependentUpon>FrontEnd.Master</DependentUpon>

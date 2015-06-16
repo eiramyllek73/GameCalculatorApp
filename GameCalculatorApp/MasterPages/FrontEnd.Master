@@ -34,13 +34,14 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a class="navbar-brand" href="#">My Web App</a></li>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="Contact.aspx">Contact</a></li>
+                            <li><a href="../Default.aspx"</a>Home</li>
+                            <li><a href="About.aspx">About</a></li>
+                            <li><a href="../GameCalculator.aspx">Game Calculator</a></li>
                         </ul> <!-- nav navbar-nav -->
 
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="About.aspx">About</a></li>
+                            <li><a href="../Contact.aspx">Contact</a></li>
                         </ul> <!-- nav navbar-nav navbar-right -->
                     </div> <!-- /.navbar-collapse -->
                 </div> <!-- container-fluid -->
@@ -53,7 +54,7 @@
                     </div>
                 <footer class="container-fluid">
                     <nav class="nav navbar-inverse navbar-fixed-bottom">
-                            <h4 class="navbar-text">&copy; Copyright 2015</h4>
+                            <h4 class="navbar-text">&copy; Copyright 2015 ~ COMP2007-Assignment01 ~ Built by Kelly McAlpine</h4>
                     </nav>
                 </footer>
             </div> <!-- PageWrapper -->
