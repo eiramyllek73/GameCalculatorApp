@@ -40,6 +40,15 @@ namespace GameCalculatorApp {
         protected global::System.Web.UI.WebControls.Label InstructionsLabel;
         
         /// <summary>
+        /// Game1Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Game1Label;
+        
+        /// <summary>
         /// ResultLabel1 control.
         /// </summary>
         /// <remarks>
@@ -173,6 +182,15 @@ namespace GameCalculatorApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator SpectatorRangeValidator1;
+        
+        /// <summary>
+        /// Game2Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Game2Label;
         
         /// <summary>
         /// ResultLabel2 control.
@@ -310,6 +328,15 @@ namespace GameCalculatorApp {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator3;
         
         /// <summary>
+        /// Game3Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Game3Label;
+        
+        /// <summary>
         /// ResultLabel3 control.
         /// </summary>
         /// <remarks>
@@ -443,6 +470,15 @@ namespace GameCalculatorApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator6;
+        
+        /// <summary>
+        /// Game4Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Game4Label;
         
         /// <summary>
         /// ResultLabel4 control.
@@ -596,5 +632,158 @@ namespace GameCalculatorApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel GamesSummaryPanel;
+        
+        /// <summary>
+        /// SummaryLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SummaryLabel;
+        
+        /// <summary>
+        /// GWLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GWLabel;
+        
+        /// <summary>
+        /// GLLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GLLabel;
+        
+        /// <summary>
+        /// PercentLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PercentLabel;
+        
+        /// <summary>
+        /// ScoreTotalLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ScoreTotalLabel;
+        
+        /// <summary>
+        /// GWTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GWTextBox;
+        
+        /// <summary>
+        /// GLTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GLTextBox;
+        
+        /// <summary>
+        /// PercentTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PercentTextBox;
+        
+        /// <summary>
+        /// ScoreTotalTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ScoreTotalTextBox;
+        
+        /// <summary>
+        /// AllowTotalLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AllowTotalLabel;
+        
+        /// <summary>
+        /// DifferLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DifferLabel;
+        
+        /// <summary>
+        /// SpecTotalLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SpecTotalLabel;
+        
+        /// <summary>
+        /// SpecAVGLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SpecAVGLabel;
+        
+        /// <summary>
+        /// AllowTotalTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AllowTotalTextBox;
+        
+        /// <summary>
+        /// DifferTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox DifferTextBox;
+        
+        /// <summary>
+        /// SpecTotalTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SpecTotalTextBox;
+        
+        /// <summary>
+        /// SpecAVGTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox SpecAVGTextBox;
     }
 }
