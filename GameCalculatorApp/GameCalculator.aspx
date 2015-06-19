@@ -87,7 +87,7 @@
                         <asp:Label ID="Game3Label" runat="server" Text="GAME 3" Font-Bold="True" ForeColor="#F96C07"></asp:Label>
                         <div class="form-group">
                             <asp:Label ID="ResultLabel3" class="control-label" runat="server" Text="Result:"></asp:Label>
-                            <asp:RadioButtonList ID="RadioButtonList3" runat="server" RepeatDirection="Horizontal" ToolTip="Please select a result option to continue." CellPadding="1" CellSpacing="1">
+                            <asp:RadioButtonList ID="ResultRadioButtonList3" runat="server" RepeatDirection="Horizontal" ToolTip="Please select a result option to continue." CellPadding="1" CellSpacing="1">
                                 <asp:ListItem Value="1" Text="Win" Selected="False"></asp:ListItem>
                                 <asp:ListItem Value="0" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
