@@ -34,7 +34,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a class="navbar-brand" href="#">My Web App</a></li>
-                            <li><a href="../Default.aspx"</a>Home</li>
+                            <li><a href="../Default.aspx">Home</a></li>
                             <li><a href="About.aspx">About</a></li>
                             <li><a href="../GameCalculator.aspx">Game Calculator</a></li>
                         </ul> <!-- nav navbar-nav -->

@@ -32,7 +32,7 @@ namespace GameCalculatorApp
                 + Convert.ToDecimal(ResultRadioButtonList4.SelectedValue.Equals("0"));
 
             //Calculate the percentage of games won
-            Decimal winPercent = gamesWon / 4;
+            Decimal winPercent = (gamesWon *100) / 4;
 
             //Calculate the total of points scored
             Decimal scorePoint = Convert.ToDecimal(ScoreTextBox1.Text)
@@ -75,6 +75,9 @@ namespace GameCalculatorApp
             SpecTotalTextBox.Text = specTotal.ToString();
             //Spectator Average:
             SpecAVGTextBox.Text = specAvg.ToString();
+
+            //Display Summary information
+            GamesSummaryPanel.Visible = true;
         }
     }
 }
