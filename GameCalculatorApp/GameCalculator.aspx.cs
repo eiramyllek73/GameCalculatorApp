@@ -35,40 +35,46 @@ namespace GameCalculatorApp
             Decimal winPercent = gamesWon / 4;
 
             //Calculate the total of points scored
-            Decimal scorePoint = Convert.ToDecimal(ScoreTextBox1.Text
-                + ScoreTextBox2.Text + ScoreTextBox3.Text + ScoreTextBox4.Text);
+            Decimal scorePoint = Convert.ToDecimal(ScoreTextBox1.Text)
+                + Convert.ToDecimal(ScoreTextBox2.Text) 
+                + Convert.ToDecimal(ScoreTextBox3.Text) 
+                + Convert.ToDecimal(ScoreTextBox4.Text);
 
             //Calculate the total of points allowed
-            Decimal allowPoint = Convert.ToDecimal(AllowedTextBox1.Text
-                + AllowedTextBox2.Text + AllowedTextBox3.Text + AllowedTextBox4.Text);
+            Decimal allowPoint = Convert.ToDecimal(AllowedTextBox1.Text)
+                + Convert.ToDecimal(AllowedTextBox2.Text) 
+                + Convert.ToDecimal(AllowedTextBox3.Text) 
+                + Convert.ToDecimal(AllowedTextBox4.Text);
 
             //Calculate the point differential (Scored - Allowed)
             Decimal pointDifferential = allowPoint - scorePoint;
 
             //Calculate the total of Spectators
-            Decimal specTotal = Convert.ToDecimal(SpectatorTextBox1.Text
-                + SpectatorTextBox2.Text + SpectatorTextBox3.Text + SpectatorTextBox4.Text);
+            Decimal specTotal = Convert.ToDecimal(SpectatorTextBox1.Text)
+                + Convert.ToDecimal(SpectatorTextBox2.Text) 
+                + Convert.ToDecimal(SpectatorTextBox3.Text) 
+                + Convert.ToDecimal(SpectatorTextBox4.Text);
 
             //Calculate the Spectator average (Spectator total / 4 games)
             Decimal specAvg = specTotal / 4;
 
             //Display all calculations to Summary Panel  
             //Games Won:
-            GWTextBox.Text = gamesWon.ToString("d");
+            GWTextBox.Text = gamesWon.ToString();
             //Games Lost:
-            GLTextBox.Text = gamesLost.ToString("d");
+            GLTextBox.Text = gamesLost.ToString();
             //Win Percentage:
-            PercentTextBox.Text = winPercent.ToString("d");
+            PercentTextBox.Text = winPercent.ToString();
             //Scored Point-Total:
-            ScoreTotalTextBox.Text = scorePoint.ToString("d");
+            ScoreTotalTextBox.Text = scorePoint.ToString();
             //Allowed Point-Total:
-            AllowTotalTextBox.Text = allowPoint.ToString("d");
+            AllowTotalTextBox.Text = allowPoint.ToString();
             //Point Differential:
-            DifferTextBox.Text = pointDifferential.ToString("d");
+            DifferTextBox.Text = pointDifferential.ToString();
             //Spectator Total:
-            SpecTotalTextBox.Text = specTotal.ToString("d");
+            SpecTotalTextBox.Text = specTotal.ToString();
             //Spectator Average:
-            SpecAVGTextBox.Text = specAvg.ToString("d");
+            SpecAVGTextBox.Text = specAvg.ToString();
         }
     }
 }

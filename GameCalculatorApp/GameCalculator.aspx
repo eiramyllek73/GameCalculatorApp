@@ -91,7 +91,7 @@
                                 <asp:ListItem Value="1" Text="Win" Selected="False"></asp:ListItem>
                                 <asp:ListItem Value="0" Text="Loss"></asp:ListItem>
                             </asp:RadioButtonList>
-                            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="A result option must be selected." CssClass="alert-danger" Display="Dynamic" Font-Bold="True" ControlToValidate="RadioButtonList3"></asp:RequiredFieldValidator>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="A result option must be selected." CssClass="alert-danger" Display="Dynamic" Font-Bold="True" ControlToValidate="ResultRadioButtonList3"></asp:RequiredFieldValidator>
                         </div>
                         <div class="form-group">
                             <asp:Label ID="ScoreLabel3" class="control-label" runat="server" Text="Scored:"></asp:Label>
@@ -162,7 +162,7 @@
         <!-- End of Button Row -->
 
 
-        <asp:Panel ID="GamesSummaryPanel" runat="server" Visible="False" BackColor="#F96C07" ForeColor="#F96C07"> 
+        <asp:Panel ID="GamesSummaryPanel" runat="server" Visible="True" BackColor="#F96C07" ForeColor="#F96C07"> 
             <div class="container-fluid">       
             <div class="panel panel-default">
                 <!-- Default panel contents -->
