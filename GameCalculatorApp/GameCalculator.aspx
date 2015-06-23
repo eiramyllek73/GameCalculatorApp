@@ -45,6 +45,7 @@
                         <div class="form-group">
                             <asp:Label ID="SpectatorLabel1" runat="server" Text="Spectators:"></asp:Label>
                             <asp:TextBox ID="SpectatorTextBox1" runat="server" TextMode="Number" ToolTip="Please enter the number of Spectators present at this game."></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox1" CssClass="alert-danger"></asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="SpectatorRangeValidator1" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox1" CssClass="alert-danger" Display="Dynamic" Font-Bold="True" MaximumValue="999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
                         </div>
                     </div> <!-- End of Well 1 -->
@@ -79,6 +80,7 @@
                         <div class="form-group">
                             <asp:Label ID="SpectatorLabel2" runat="server" Text="Spectators:"></asp:Label>
                             <asp:TextBox ID="SpectatorTextBox2" runat="server" TextMode="Number" ToolTip="Please enter the number of Spectators present at this game."></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox2" CssClass="alert-danger"></asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="RangeValidator3" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox2" CssClass="alert-danger" Display="Dynamic" Font-Bold="True" MaximumValue="999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
                         </div>
                     </div> <!-- End of Well 2 -->
@@ -113,6 +115,7 @@
                         <div class="form-group">
                             <asp:Label ID="SpectatorLabel3" runat="server" Text="Spectators:"></asp:Label>
                             <asp:TextBox ID="SpectatorTextBox3" runat="server" TextMode="Number" ToolTip="Please enter the number of Spectators present at this game."></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox3" CssClass="alert-danger"></asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="RangeValidator6" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox3" CssClass="alert-danger" Display="Dynamic" Font-Bold="True" MaximumValue="999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
                         </div>
                     </div> <!-- End of Well 3 -->
@@ -147,6 +150,7 @@
                         <div class="form-group">
                             <asp:Label ID="SpectatorLabel4" runat="server" Text="Spectators:"></asp:Label>
                             <asp:TextBox ID="SpectatorTextBox4" runat="server" TextMode="Number" ToolTip="Please enter the number of Spectators present at this game."></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox4" CssClass="alert-danger"></asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="RangeValidator9" runat="server" ErrorMessage="Spectators must be 0 or greater." ControlToValidate="SpectatorTextBox4" CssClass="alert-danger" Display="Dynamic" Font-Bold="True" MaximumValue="999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
                         </div>
                     </div> <!-- End of Well 4-->
